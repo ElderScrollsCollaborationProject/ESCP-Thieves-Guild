@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>ESCP_Thought_NocturnalsDebt</defName>
+        <thoughtClass>Thought_MemorySocial</thoughtClass>
+        <durationDays>8</durationDays>
+        <stackLimit>3</stackLimit>
+        <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+        <stages>
+            <li>
+                <label>Nocturnal took {0}</label>
+                <description>{0} died a Nightingale, and Nocturnal claimed the soul that was promised to her. There will be no rest for them in Aetherius.</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+                <baseOpinionOffset>0</baseOpinionOffset>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

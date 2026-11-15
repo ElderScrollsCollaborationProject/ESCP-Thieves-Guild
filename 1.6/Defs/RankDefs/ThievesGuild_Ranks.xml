@@ -113,6 +113,36 @@
         </trainingXpPerHour>
         <expedition>ESCP_Expedition_Guild_Veteran</expedition>
         <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_ThievesGuild_Nightingale</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_ThievesGuild_Nightingale</defName>
+        <label>Nightingale</label>
+        <description>Sworn to Nocturnal and the Twilight Sepulcher. Nightingales move unseen and answer only to the other two.</description>
+        <pathName>Agent of Nocturnal</pathName>
+        <minDaysInRank>30</minDaysInRank>
+        <skillRequirements>
+            <Social>15</Social>
+            <Melee>10</Melee>
+        </skillRequirements>
+        <minMissionsCompleted>10</minMissionsCompleted>
+        <minGuildReputation>95</minGuildReputation>
+        <requiredQuest>ESCP_Quest_ThievesGuild_TwilightSepulcher</requiredQuest>
+        <requiredQuestLabel>Swear the oath at the Twilight Sepulcher</requiredQuestLabel>
+        <maxHolders>3</maxHolders>
+        <holderKinds>
+            <li>ESCP_Pawnkind_ThievesGuild_Nightingale</li>
+        </holderKinds>
+        <grantHediff>ESCP_Hediff_NightingalePact</grantHediff>
+        <trainingXpPerHour>
+            <Social>800</Social>
+            <Melee>300</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Guild_Veteran</expedition>
+        <discipline>Scholarly</discipline>
     </ESCP.Ranks.RankTierDef>
 
 </Defs>

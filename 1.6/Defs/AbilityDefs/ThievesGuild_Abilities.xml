@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <AbilityDef>
+        <defName>ESCP_Ability_NightingaleShadowcloak</defName>
+        <label>shadowcloak of Nocturnal</label>
+        <description>Draw on the pact with Nocturnal and step out of sight. Nightingales use it to slip past guards and to vanish when a job goes wrong.</description>
+        <iconPath>UI/Abilities/Invisibility</iconPath>
+        <hostile>false</hostile>
+        <aiCanUse>true</aiCanUse>
+        <showOnCharacterCard>true</showOnCharacterCard>
+        <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+        <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <cooldownTicksRange>30000</cooldownTicksRange>
+        <statBases>
+            <Ability_Duration>30</Ability_Duration>
+        </statBases>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <requireLineOfSight>false</requireLineOfSight>
+            <range>-1</range>
+            <warmupTime>0.5</warmupTime>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+            </targetParams>
+        </verbProperties>
+        <targetRequired>false</targetRequired>
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediff">
+                <compClass>CompAbilityEffect_GiveHediff</compClass>
+                <hediffDef>PsychicInvisibility</hediffDef>
+                <onlyApplyToSelf>true</onlyApplyToSelf>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.AbilityExtension_SpellAI">
+                <role>SelfBuff</role>
+                <buffHediff>PsychicInvisibility</buffHediff>
+            </li>
+        </modExtensions>
+    </AbilityDef>
+
+</Defs>

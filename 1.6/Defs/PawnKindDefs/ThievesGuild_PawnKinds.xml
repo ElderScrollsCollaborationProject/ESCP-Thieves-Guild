@@ -137,4 +137,39 @@
         </backstoryFiltersOverride>
     </PawnKindDef>
 
+    <PawnKindDef ParentName="ESCP_ThievesGuildKindBase">
+        <defName>ESCP_Pawnkind_ThievesGuild_Nightingale</defName>
+        <label>Nightingale</label>
+        <combatPower>150</combatPower>
+        <minGenerationAge>30</minGenerationAge>
+        <maxGenerationAge>70</maxGenerationAge>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>1~2</gearHealthRange>
+        <weaponMoney>600~1400</weaponMoney>
+        <weaponTags>
+            <li>GoodMelee</li>
+            <li>SimpleGun</li>
+        </weaponTags>
+        <apparelMoney>1000~2000</apparelMoney>
+        <apparelTags>
+            <li>Shadowy</li>
+        </apparelTags>
+        <techHediffsChance>0</techHediffsChance>
+        <initialWillRange>8~14</initialWillRange>
+        <initialResistanceRange>25~40</initialResistanceRange>
+        <abilities>
+            <li>ESCP_Ability_NightingaleShadowcloak</li>
+        </abilities>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_ThievesGuild_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_ThievesGuild_Nightingale</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
 </Defs>

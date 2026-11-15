@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <HediffDef>
+        <defName>ESCP_Hediff_NightingalePact</defName>
+        <label>Nightingale's pact</label>
+        <description>This pawn has sworn to serve Nocturnal in life and to guard the Twilight Sepulcher after death. In return the Daedric Prince lends them her shadow.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <defaultLabelColor>(0.55, 0.45, 0.75)</defaultLabelColor>
+        <isBad>false</isBad>
+        <everCurableByItem>false</everCurableByItem>
+        <abilities>
+            <li>ESCP_Ability_NightingaleShadowcloak</li>
+        </abilities>
+        <comps>
+            <li Class="ESCP.Core.HediffCompProperties_DeathNotice">
+                <letterLabel>Nocturnal's debt: {PAWN_nameDef}</letterLabel>
+                <letterText>{PAWN_nameDef} has died, and the pact is called in. {PAWN_possessive} soul goes to the Evergloam to stand guard over the Twilight Sepulcher, as every Nightingale swore it would.\n\nThe colony feels the shadow pass.</letterText>
+                <letterDef>NegativeEvent</letterDef>
+                <colonyThought>ESCP_Thought_NocturnalsDebt</colonyThought>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>0.3</MoveSpeed>
+                    <MeleeDodgeChance>10</MeleeDodgeChance>
+                    <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+                    <TradePriceImprovement>0.05</TradePriceImprovement>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

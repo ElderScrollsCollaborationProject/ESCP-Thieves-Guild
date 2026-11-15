@@ -182,4 +182,24 @@
         </spawnCategories>
     </BackstoryDef>
 
+    <BackstoryDef>
+        <defName>ESCP_Backstory_ThievesGuild_Nightingale_Adult</defName>
+        <identifier>ESCP_Backstory_ThievesGuild_Nightingale_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Nightingale</title>
+        <titleShort>Nightingale</titleShort>
+        <description>[PAWN_nameDef] knelt at the Twilight Sepulcher and swore [PAWN_objective]self to Nocturnal. [PAWN_pronoun] is one of the three who guard the Ebonmere, and the guild only learns [PAWN_possessive] name when [PAWN_pronoun] wants it to.</description>
+        <skillGains>
+            <Social>7</Social>
+            <Melee>5</Melee>
+            <Shooting>5</Shooting>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <spawnCategories>
+            <li>ESCP_Backstory_ThievesGuild_Nightingale</li>
+        </spawnCategories>
+    </BackstoryDef>
+
 </Defs>

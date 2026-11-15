@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Bretons">
+        <defName>ESCP_Character_MercerFrey</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Nightingale</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Breton</xenotype>
+        <roles>
+            <li Class="ESCP.Core.CharacterRole_FactionLeader">
+                <seniority>1000</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Mercer</firstName>
+                <lastName>Frey</lastName>
+                <nickname>the Guildmaster</nickname>
+                <gender>Male</gender>
+                <age>50</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(90, 90, 90)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <beardDef>Stubble</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterTraitsDefinition">
+                <traits>
+                    <li>
+                        <key>Greedy</key>
+                        <value>0</value>
+                    </li>
+                </traits>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Nords">
+        <defName>ESCP_Character_Brynjolf</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Operative</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Nord</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Brynjolf</firstName>
+                <lastName></lastName>
+                <gender>Male</gender>
+                <age>40</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(170, 70, 40)</hairColor>
+                <hairDef>Long</hairDef>
+                <beardDef>Full</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Dunmer">
+        <defName>ESCP_Character_Karliah</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Nightingale</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Dunmer</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Karliah</firstName>
+                <lastName></lastName>
+                <gender>Female</gender>
+                <age>60</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(40, 30, 30)</hairColor>
+                <hairDef>Bob</hairDef>
+                <headTypeDef>ESCP_HeadMerColouredEyes_Female_Average_Normal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Bretons">
+        <defName>ESCP_Character_DelvinMallory</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Fence</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Breton</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Delvin</firstName>
+                <lastName>Mallory</lastName>
+                <gender>Male</gender>
+                <age>60</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(120, 120, 120)</hairColor>
+                <hairDef>Bald</hairDef>
+                <beardDef>Stubble</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterTraitsDefinition">
+                <traits>
+                    <li>
+                        <key>Greedy</key>
+                        <value>0</value>
+                    </li>
+                </traits>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Imperials">
+        <defName>ESCP_Character_Vex</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Operative</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Imperial</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Vex</firstName>
+                <lastName></lastName>
+                <gender>Female</gender>
+                <age>35</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(230, 225, 200)</hairColor>
+                <hairDef>Bob</hairDef>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Imperials">
+        <defName>ESCP_Character_GrayFox</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Master</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Imperial</xenotype>
+        <roles>
+            <li Class="ESCP.Core.CharacterRole_FactionLeader">
+                <seniority>900</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Corvus</firstName>
+                <lastName>Umbranox</lastName>
+                <nickname>the Gray Fox</nickname>
+                <gender>Male</gender>
+                <age>45</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(70, 60, 55)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <beardDef>Stubble</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Imperials">
+        <defName>ESCP_Character_ArmandChristophe</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Operative</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Imperial</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Armand</firstName>
+                <lastName>Christophe</lastName>
+                <nickname>the Doyen</nickname>
+                <gender>Male</gender>
+                <age>50</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(60, 50, 45)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <beardDef>Goatee</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Redguards">
+        <defName>ESCP_Character_Tonilia</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Fence</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Redguard</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Tonilia</firstName>
+                <lastName></lastName>
+                <gender>Female</gender>
+                <age>45</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(25, 20, 15)</hairColor>
+                <hairDef>Bob</hairDef>
+                <skinColorOverride>(90, 65, 48)</skinColorOverride>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterTraitsDefinition">
+                <traits>
+                    <li>
+                        <key>Greedy</key>
+                        <value>0</value>
+                    </li>
+                </traits>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Nords">
+        <defName>ESCP_Character_Vekel</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Operative</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Nord</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Vekel</firstName>
+                <lastName></lastName>
+                <nickname>the Man</nickname>
+                <gender>Male</gender>
+                <age>45</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(110, 90, 70)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <beardDef>Full</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Nords">
+        <defName>ESCP_Character_Rune</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Operative</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Nord</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Rune</firstName>
+                <lastName></lastName>
+                <gender>Male</gender>
+                <age>30</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(60, 50, 40)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <beardDef>Stubble</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Bretons">
+        <defName>ESCP_Character_CynricEndell</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Operative</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Breton</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Cynric</firstName>
+                <lastName>Endell</lastName>
+                <gender>Male</gender>
+                <age>35</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(70, 60, 50)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <beardDef>Goatee</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Bosmer">
+        <defName>ESCP_Character_Niruin</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Operative</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Bosmer</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Niruin</firstName>
+                <lastName></lastName>
+                <gender>Male</gender>
+                <age>100</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(50, 35, 25)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <headTypeDef>ESCP_HeadMer_Male_Average_Normal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Nords">
+        <defName>ESCP_Character_Thrynn</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Cutpurse</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Nord</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Thrynn</firstName>
+                <lastName></lastName>
+                <gender>Male</gender>
+                <age>30</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(160, 120, 80)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <beardDef>Stubble</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Nords">
+        <defName>ESCP_Character_Sapphire</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Operative</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Nord</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Sapphire</firstName>
+                <lastName></lastName>
+                <gender>Female</gender>
+                <age>30</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(60, 40, 30)</hairColor>
+                <hairDef>Bob</hairDef>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterTraitsDefinition">
+                <traits>
+                    <li>
+                        <key>Abrasive</key>
+                        <value>0</value>
+                    </li>
+                </traits>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Nords">
+        <defName>ESCP_Character_Vipir</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Cutpurse</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Nord</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Vipir</firstName>
+                <lastName></lastName>
+                <nickname>the Fleet</nickname>
+                <gender>Male</gender>
+                <age>30</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(150, 110, 70)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <beardDef>Stubble</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Nords">
+        <defName>ESCP_Character_Dirge</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Cutpurse</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Nord</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Dirge</firstName>
+                <lastName></lastName>
+                <gender>Male</gender>
+                <age>40</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(80, 70, 60)</hairColor>
+                <hairDef>Shaved</hairDef>
+                <beardDef>Full</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterTraitsDefinition">
+                <traits>
+                    <li>
+                        <key>Tough</key>
+                        <value>0</value>
+                    </li>
+                </traits>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Bretons">
+        <defName>ESCP_Character_EtienneRarnis</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Cutpurse</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Breton</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Etienne</firstName>
+                <lastName>Rarnis</lastName>
+                <gender>Male</gender>
+                <age>30</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(90, 70, 50)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Imperials">
+        <defName>ESCP_Character_GallusDesidenius</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Nightingale</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Imperial</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Gallus</firstName>
+                <lastName>Desidenius</lastName>
+                <gender>Male</gender>
+                <age>60</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(140, 140, 140)</hairColor>
+                <hairDef>ShortCut</hairDef>
+                <beardDef>Full</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Khajiit">
+        <defName>ESCP_Character_Skrivva</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Operative</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Khajiit</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>S'Krivva</firstName>
+                <lastName></lastName>
+                <nickname>the Doyen</nickname>
+                <gender>Female</gender>
+                <age>50</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(170, 130, 85)</hairColor>
+                <hairDef>Bob</hairDef>
+                <headTypeDef>ESCP_HeadKhajiit_Female_Average_Normal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Bosmer">
+        <defName>ESCP_Character_Methredhel</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Operative</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Bosmer</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Methredhel</firstName>
+                <lastName></lastName>
+                <gender>Female</gender>
+                <age>40</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(60, 40, 25)</hairColor>
+                <hairDef>Bob</hairDef>
+                <headTypeDef>ESCP_HeadMer_Female_Average_Normal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef MayRequire="Rick.ESCP.Khajiit">
+        <defName>ESCP_Character_SugarLipsHabasi</defName>
+        <pawnKind>ESCP_Pawnkind_ThievesGuild_Master</pawnKind>
+        <faction>ESCP_Faction_ThievesGuild</faction>
+        <eras>
+            <li>3</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Khajiit</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Habasi</firstName>
+                <lastName></lastName>
+                <nickname>Sugar-Lips</nickname>
+                <gender>Female</gender>
+                <age>40</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(160, 120, 80)</hairColor>
+                <hairDef>Bob</hairDef>
+                <headTypeDef>ESCP_HeadKhajiit_Female_Average_Normal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterTraitsDefinition">
+                <traits>
+                    <li>
+                        <key>Greedy</key>
+                        <value>0</value>
+                    </li>
+                </traits>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+</Defs>
