@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraderKindDef>
+        <defName>ESCP_Caravan_ThievesGuild_Fence</defName>
+        <label>guild fence</label>
+
+        <stockGenerators>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Gold</thingDef>
+                <countRange>10~40</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Jade</thingDef>
+                <countRange>15~50</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>300~900</countRange>
+            </li>
+
+            <li Class="StockGenerator_Tag">
+                <tradeTag>Apparel</tradeTag>
+                <countRange>3~8</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MedicineHerbal</thingDef>
+                <countRange>15~40</countRange>
+            </li>
+
+            <li Class="StockGenerator_Tag">
+                <tradeTag>MeleeWeapon</tradeTag>
+                <countRange>2~6</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>SmokeleafJoint</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+        </stockGenerators>
+
+    </TraderKindDef>
+
+</Defs>

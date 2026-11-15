@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_ThievesGuild>Old hand:</ESCP_Rank_Mentor_ThievesGuild>
+    <ESCP_Rank_NoMentor_ThievesGuild>No one</ESCP_Rank_NoMentor_ThievesGuild>
+    <ESCP_Rank_Promote_ThievesGuild>Move Up</ESCP_Rank_Promote_ThievesGuild>
+    <ESCP_Rank_NextRank_ThievesGuild>Next rank</ESCP_Rank_NextRank_ThievesGuild>
+    <ESCP_Rank_ChoosePath_ThievesGuild>Choose a path</ESCP_Rank_ChoosePath_ThievesGuild>
+    <ESCP_Rank_DaysInRank_ThievesGuild>{0} days at this rank in the Guild</ESCP_Rank_DaysInRank_ThievesGuild>
+    <ESCP_Rank_Promoted_Title_ThievesGuild>Moving up: {0}</ESCP_Rank_Promoted_Title_ThievesGuild>
+    <ESCP_Rank_Promoted_Text_ThievesGuild>Word has gone round the Guild. {0} runs as {1} now.</ESCP_Rank_Promoted_Text_ThievesGuild>
+    <ESCP_Rank_Demoted_Title_ThievesGuild>Knocked down: {0}</ESCP_Rank_Demoted_Title_ThievesGuild>
+    <ESCP_Rank_Demoted_Expedition_ThievesGuild>{0} botched a job and has been knocked down from {1} to {2}.</ESCP_Rank_Demoted_Expedition_ThievesGuild>
+    <ESCP_Rank_Demoted_KickedOut_ThievesGuild>The Guild wants nothing to do with the colony. {0} is down from {1} to {2}.</ESCP_Rank_Demoted_KickedOut_ThievesGuild>
+    <ESCP_Rank_FormUp_Message_ThievesGuild>{0} whistles for {1}.</ESCP_Rank_FormUp_Message_ThievesGuild>
+    <ESCP_Rank_Dismiss_Message_ThievesGuild>{0} tells everyone to go to ground.</ESCP_Rank_Dismiss_Message_ThievesGuild>
+    <ESCP_Rank_Rally_Title_ThievesGuild>{0} gives the signal</ESCP_Rank_Rally_Title_ThievesGuild>
+    <ESCP_Rank_Rally_Text_ThievesGuild>{0} gives the old signal, and every member of {1} on the field scatters and strikes from the shadows.</ESCP_Rank_Rally_Text_ThievesGuild>
+    <ESCP_Rank_DrillingComplete_ThievesGuild>{0} and {1} finished practicing on the locks.</ESCP_Rank_DrillingComplete_ThievesGuild>
+    <ESCP_Rank_StudyingComplete_ThievesGuild>{0} and {1} finished casing the mark.</ESCP_Rank_StudyingComplete_ThievesGuild>
+    <ESCP_Rank_InspectionComplete_Commended_ThievesGuild>{0} checks {1}'s tools. Sharp, oiled and quiet.</ESCP_Rank_InspectionComplete_Commended_ThievesGuild>
+    <ESCP_Rank_InspectionComplete_Reprimanded_ThievesGuild>{0} checks {1}'s tools. They would wake the whole house.</ESCP_Rank_InspectionComplete_Reprimanded_ThievesGuild>
+    <ESCP_Rank_InspectionComplete_Passed_ThievesGuild>{0} checks {1}'s tools. Good enough for a pickpocket.</ESCP_Rank_InspectionComplete_Passed_ThievesGuild>
+    <ESCP_Rank_InspectionComplete_NoGear_ThievesGuild>{0} asks to see {1}'s tools, but there is nothing on them.</ESCP_Rank_InspectionComplete_NoGear_ThievesGuild>
+    <ESCP_Rank_PunishmentAssigned_ThievesGuild>{0} docks {1}'s share and puts them to work.</ESCP_Rank_PunishmentAssigned_ThievesGuild>
+    <ESCP_Rank_MentorDown_Message_ThievesGuild>{1} has gone down! {0} is not leaving them behind.</ESCP_Rank_MentorDown_Message_ThievesGuild>
+    <ESCP_Rank_Suspended_Title_ThievesGuild>Out of the Guild</ESCP_Rank_Suspended_Title_ThievesGuild>
+    <ESCP_Rank_History_Enrolled_ThievesGuild>Joined the Guild as {0}.</ESCP_Rank_History_Enrolled_ThievesGuild>
+    <ESCP_Rank_History_FormedUp_ThievesGuild>Whistled for {0}.</ESCP_Rank_History_FormedUp_ThievesGuild>
+    <ESCP_Rank_History_Inspected_ThievesGuild>Checked {0}'s tools.</ESCP_Rank_History_Inspected_ThievesGuild>
+    <ESCP_Rank_History_Rallied_ThievesGuild>Gave the signal for {0}.</ESCP_Rank_History_Rallied_ThievesGuild>
+    <ESCP_Rank_History_Punished_ThievesGuild>Docked {0}'s share.</ESCP_Rank_History_Punished_ThievesGuild>
+    <ESCP_Rank_History_MentorDown_ThievesGuild>{0}, their old hand, went down.</ESCP_Rank_History_MentorDown_ThievesGuild>
+    <ESCP_Rank_History_MentorDied_ThievesGuild>{0}, their old hand, is dead.</ESCP_Rank_History_MentorDied_ThievesGuild>
+
+</LanguageData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ESCP.Guilds.GuildBranchDef>
+        <defName>ESCP_GuildBranch_ThievesGuild</defName>
+        <guild>ThievesGuild</guild>
+        <guildFactionDef>ESCP_Faction_ThievesGuild</guildFactionDef>
+        <guildActionLabel>Contact the Thieves Guild</guildActionLabel>
+        <hostFactionDefs>
+            <li MayRequire="Rick.ESCP.Imperials">ESCP_Faction_Imperial</li>
+            <li MayRequire="Rick.ESCP.Bretons">ESCP_Faction_Kingdom_of_Daggerfall</li>
+            <li MayRequire="Rick.ESCP.Bretons">ESCP_Faction_Kingdom_of_Wayrest</li>
+            <li MayRequire="Rick.ESCP.Nords">ESCP_Faction_Kingdom_of_Skyrim</li>
+            <li MayRequire="Rick.ESCP.Nords">ESCP_Faction_Stormcloaks</li>
+        </hostFactionDefs>
+    </ESCP.Guilds.GuildBranchDef>
+
+</Defs>

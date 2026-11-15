@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ESCP.Ranks.RankTrackDef>
+        <defName>ESCP_RankTrack_ThievesGuild</defName>
+        <label>Thieves Guild ranks</label>
+        <iconPath>UI/Abilities/Invisibility</iconPath>
+        <guild>ThievesGuild</guild>
+        <rootTier>ESCP_Rank_ThievesGuild_Pickpocket</rootTier>
+        <owningFaction>ESCP_Faction_ThievesGuild</owningFaction>
+        <collectiveNoun>the Guild</collectiveNoun>
+        <drillLabel>Lockwork Practice</drillLabel>
+        <drillDesc>Practice with any colonist. Both stop what they are doing and both gain skill XP. Once per day.</drillDesc>
+        <studyLabel>Case the Mark</studyLabel>
+        <studyDesc>Work through the guild's craft with another member. Both gain skill XP. Once per day.</studyDesc>
+        <inspectLabel>Check Their Tools</inspectLabel>
+        <inspectDesc>Look over a junior member's gear. Good upkeep earns praise and poor upkeep earns a sharp word.</inspectDesc>
+        <punishLabel>Dock Their Share...</punishLabel>
+        <punishDesc>Set a junior member to tedious labor for a failure, souring their mood. Once per day per member.</punishDesc>
+        <rallyLabel>Scatter and Strike!</rallyLabel>
+        <rallyDesc>Call on {0} to fight harder for a short while. Once every few days.</rallyDesc>
+        <fallInLabel>Shadow Me</fallInLabel>
+        <fallInDesc>Order {0} to fall in behind you, up to four deep. They hold formation until released.</fallInDesc>
+        <dismissLabel>Go to Ground</dismissLabel>
+        <dismissDesc>Release {0} from formation so they can return to their duties.</dismissDesc>
+    </ESCP.Ranks.RankTrackDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_ThievesGuild_Pickpocket</defName>
+        <label>pickpocket</label>
+        <description>Lifts purses at the market and hands a share upward without complaint.</description>
+        <nextTierOptions>
+            <li>ESCP_Rank_ThievesGuild_Footpad</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_ThievesGuild_Footpad</defName>
+        <label>footpad</label>
+        <description>Knows the safe houses and the fences who use them.</description>
+        <minDaysInRank>4</minDaysInRank>
+        <skillRequirements>
+            <Social>5</Social>
+        </skillRequirements>
+        <minMissionsCompleted>1</minMissionsCompleted>
+        <minGuildReputation>10</minGuildReputation>
+        <trainingXpPerHour>
+            <Social>400</Social>
+            <Shooting>150</Shooting>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Guild_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_ThievesGuild_Prowler</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_ThievesGuild_Prowler</defName>
+        <label>prowler</label>
+        <description>Plans small jobs and picks who goes on them.</description>
+        <minDaysInRank>9</minDaysInRank>
+        <skillRequirements>
+            <Social>8</Social>
+        </skillRequirements>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <minGuildReputation>25</minGuildReputation>
+        <trainingXpPerHour>
+            <Social>500</Social>
+            <Shooting>200</Shooting>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Guild_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_ThievesGuild_Shadowfoot</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_ThievesGuild_Shadowfoot</defName>
+        <label>shadowfoot</label>
+        <description>Trusted with the jobs that would embarrass someone important.</description>
+        <minDaysInRank>14</minDaysInRank>
+        <skillRequirements>
+            <Social>11</Social>
+        </skillRequirements>
+        <minMissionsCompleted>4</minMissionsCompleted>
+        <minGuildReputation>50</minGuildReputation>
+        <trainingXpPerHour>
+            <Social>600</Social>
+            <Shooting>250</Shooting>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Guild_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_ThievesGuild_MasterThief</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_ThievesGuild_MasterThief</defName>
+        <label>master thief</label>
+        <description>Runs a territory and is owed a great many favors.</description>
+        <minDaysInRank>20</minDaysInRank>
+        <skillRequirements>
+            <Social>14</Social>
+        </skillRequirements>
+        <minMissionsCompleted>6</minMissionsCompleted>
+        <minGuildReputation>75</minGuildReputation>
+        <trainingXpPerHour>
+            <Social>700</Social>
+            <Shooting>300</Shooting>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Guild_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+    </ESCP.Ranks.RankTierDef>
+
+</Defs>

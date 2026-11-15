@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ESCP.Enlist.FactionEnlistOptionsDef>
+        <defName>ESCP_Enlistment_ThievesGuild</defName>
+        <label>Thieves Guild</label>
+        <secretMembership>true</secretMembership>
+        <minGoodwillRequrementToEnlist>10</minGoodwillRequrementToEnlist>
+        <enlistGoodwillGain>5</enlistGoodwillGain>
+        <minGoodwillUponEnlist>50</minGoodwillUponEnlist>
+        <currencyDef>ESCP_Currency_Septims</currencyDef>
+
+        <enlistLetterTitleKey>ESCP_ThievesGuild_Enlist_Letter_Title</enlistLetterTitleKey>
+        <enlistLetterLabelKey>ESCP_ThievesGuild_Enlist_Letter_Label</enlistLetterLabelKey>
+        <enlistButtonLabelKey>ESCP_ThievesGuild_Enlist_Button_Label</enlistButtonLabelKey>
+        <enlistButtonDescKey>ESCP_ThievesGuild_Enlist_Button_Desc</enlistButtonDescKey>
+        <enlistRequrementsNotSatisfiedKey>ESCP_ThievesGuild_Enlist_Requrements_Not_Satisfied</enlistRequrementsNotSatisfiedKey>
+        <enlistedToHostileFactionKey>ESCP_ThievesGuild_Enlisted_To_Hostile_Faction</enlistedToHostileFactionKey>
+        <enlistButtonIconTexPath>UI/Icons/RoyalFavor</enlistButtonIconTexPath>
+        <enlistedWithKey>ESCP_ThievesGuild_Enlisted_With_Key</enlistedWithKey>
+
+        <missionsAreEnabled>true</missionsAreEnabled>
+        <missionQuestPrefix>ESCP_Quest_ThievesGuild_</missionQuestPrefix>
+        <missionsLabelKey>ESCP_ThievesGuild_Missions_Label</missionsLabelKey>
+        <missionsDescKey>ESCP_ThievesGuild_Missions_Desc</missionsDescKey>
+        <missionsButtonIconTexPath>UI/Commands/Inspect</missionsButtonIconTexPath>
+        <missionsBackgroundMenuTexPath>UI/Commands/Inspect</missionsBackgroundMenuTexPath>
+        <missionsMenuDescriptionKey>ESCP_ThievesGuild_Menu_Missions_Desc</missionsMenuDescriptionKey>
+        <missionsMenuSelectQuestKey>ESCP_ThievesGuild_Menu_Missions_Select_Quest</missionsMenuSelectQuestKey>
+        <missionsMenuStartQuestKey>ESCP_ThievesGuild_Menu_Missions_Start_Quest</missionsMenuStartQuestKey>
+        <missionsBountyRewardRange>40~120</missionsBountyRewardRange>
+        <missionsMenuCollectBountyKey>ESCP_ThievesGuild_Menu_Missions_Collect_Bounty</missionsMenuCollectBountyKey>
+
+        <salaryIsEnabled>true</salaryIsEnabled>
+        <salaryDef>ESCP_Currency_Septims</salaryDef>
+        <salaryLabelKey>ESCP_ThievesGuild_Salary_Label</salaryLabelKey>
+        <salaryDescKey>ESCP_ThievesGuild_Salary_Desc</salaryDescKey>
+        <salaryButtonIconTexPath>Things/Item/Currencies/ESCP_Septim/ESCP_Septim_c</salaryButtonIconTexPath>
+        <salaryRange>150~350</salaryRange>
+        <salaryPeriodDays>14</salaryPeriodDays>
+
+        <provisionOptions>
+            <li>
+                <provisionsLabelKey>ESCP_ThievesGuild_Provisions_Label</provisionsLabelKey>
+                <provisionsDescKey>ESCP_ThievesGuild_Provisions_Desc</provisionsDescKey>
+                <provisionsButtonIconTexPath>UI/Icons/ThingCategories/FoodMeals</provisionsButtonIconTexPath>
+                <provisions>
+                    <li>
+                        <thing>Pemmican</thing>
+                        <amountRange>20~30</amountRange>
+                    </li>
+                    <li>
+                        <thing>MedicineHerbal</thing>
+                        <amountRange>3~6</amountRange>
+                    </li>
+                </provisions>
+                <provisionsRestockInDays>10</provisionsRestockInDays>
+            </li>
+        </provisionOptions>
+
+        <storageIsEnabled>true</storageIsEnabled>
+        <storageLabelKey>ESCP_ThievesGuild_Storage_Label</storageLabelKey>
+        <storageDescKey>ESCP_ThievesGuild_Storage_Desc</storageDescKey>
+        <storageButtonIconTexPath>UI/Icons/ThingCategories/Manufactured</storageButtonIconTexPath>
+
+        <recreationGainPerTick>0.0001</recreationGainPerTick>
+        <workOptions>
+            <li>
+                <workLabelKey>ESCP_ThievesGuild_Work_0_Label</workLabelKey>
+                <workDescKey>ESCP_ThievesGuild_Work_0_Desc</workDescKey>
+                <workButtonIconTexPath>UI/Icons/WorkMode/Work</workButtonIconTexPath>
+                <additionalRestFall>0.2</additionalRestFall>
+                <silverGainPerHour>10</silverGainPerHour>
+            </li>
+            <li>
+                <workLabelKey>ESCP_ThievesGuild_Work_1_Label</workLabelKey>
+                <workDescKey>ESCP_ThievesGuild_Work_1_Desc</workDescKey>
+                <workButtonIconTexPath>UI/Icons/Learning/Lessontaking</workButtonIconTexPath>
+                <additionalRestFall>0.2</additionalRestFall>
+                <experienceGainsPerHour>
+                    <Social>700</Social>
+                    <Shooting>300</Shooting>
+                </experienceGainsPerHour>
+            </li>
+        </workOptions>
+
+        <turnInIsEnabled>false</turnInIsEnabled>
+        <dropPodServiceIsEnabled>false</dropPodServiceIsEnabled>
+        <reinforcementsAreEnabled>false</reinforcementsAreEnabled>
+
+        <resignGoodwillGain>-30</resignGoodwillGain>
+        <resignMenuTextKey>ESCP_ThievesGuild_Resign_Menu_Text</resignMenuTextKey>
+        <resignLetterTitleKey>ESCP_ThievesGuild_Resign_Letter_Title</resignLetterTitleKey>
+        <resignLetterLabelKey>ESCP_ThievesGuild_Resign_Letter_Label</resignLetterLabelKey>
+        <resignButtonLabelKey>ESCP_ThievesGuild_Resign_Button_Label</resignButtonLabelKey>
+        <resignButtonDescKey>ESCP_ThievesGuild_Resign_Button_Desc</resignButtonDescKey>
+        <resignButtonIconTexPath>UI/Icons/Trainables/Release</resignButtonIconTexPath>
+
+        <kickOutLetterTitleKey>ESCP_ThievesGuild_Kick_Out_Letter_Title</kickOutLetterTitleKey>
+        <kickOutLetterLabelKey>ESCP_ThievesGuild_Kick_Out_Label_Title</kickOutLetterLabelKey>
+    </ESCP.Enlist.FactionEnlistOptionsDef>
+
+</Defs>

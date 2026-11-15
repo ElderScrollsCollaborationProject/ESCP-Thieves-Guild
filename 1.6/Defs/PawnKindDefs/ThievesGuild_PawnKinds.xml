@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <PawnKindDef Name="ESCP_ThievesGuildKindBase" Abstract="True">
+        <race>Human</race>
+        <defaultFactionDef>ESCP_Faction_ThievesGuild</defaultFactionDef>
+        <useFactionXenotypes>true</useFactionXenotypes>
+        <maxGenerationAge>50</maxGenerationAge>
+        <minGenerationAge>18</minGenerationAge>
+        <chemicalAddictionChance>0.04</chemicalAddictionChance>
+        <invNutrition>2.7</invNutrition>
+        <invFoodDef>MealSurvivalPack</invFoodDef>
+        <disallowedTraits>
+            <li>Nudist</li>
+        </disallowedTraits>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_ThievesGuildKindBase">
+        <defName>ESCP_Pawnkind_ThievesGuild_Cutpurse</defName>
+        <label>guild cutpurse</label>
+        <combatPower>45</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~1.5</gearHealthRange>
+        <weaponMoney>100~300</weaponMoney>
+        <weaponTags>
+            <li>SomeMelee</li>
+        </weaponTags>
+        <apparelMoney>200~500</apparelMoney>
+        <apparelTags>
+            <li>Shadowy</li>
+        </apparelTags>
+        <techHediffsChance>0</techHediffsChance>
+        <initialWillRange>1~4</initialWillRange>
+        <initialResistanceRange>8~16</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_ThievesGuild_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_ThievesGuild_Thief</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_ThievesGuildKindBase">
+        <defName>ESCP_Pawnkind_ThievesGuild_Operative</defName>
+        <label>guild operative</label>
+        <combatPower>70</combatPower>
+        <minGenerationAge>22</minGenerationAge>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.7~1.8</gearHealthRange>
+        <weaponMoney>200~600</weaponMoney>
+        <weaponTags>
+            <li>SomeMelee</li>
+            <li>SimpleGun</li>
+        </weaponTags>
+        <apparelMoney>400~900</apparelMoney>
+        <techHediffsMoney>50~100</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.1</techHediffsChance>
+        <initialWillRange>3~6</initialWillRange>
+        <initialResistanceRange>14~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_ThievesGuild_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_ThievesGuild_Thief</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_ThievesGuildKindBase">
+        <defName>ESCP_Pawnkind_ThievesGuild_Master</defName>
+        <label>master thief</label>
+        <combatPower>100</combatPower>
+        <minGenerationAge>28</minGenerationAge>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>0.8~2.0</gearHealthRange>
+        <weaponMoney>400~1000</weaponMoney>
+        <weaponTags>
+            <li>SomeMelee</li>
+            <li>SimpleGun</li>
+        </weaponTags>
+        <apparelMoney>700~1500</apparelMoney>
+        <techHediffsMoney>100~150</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+            <li>Middle</li>
+        </techHediffsTags>
+        <techHediffsChance>0.15</techHediffsChance>
+        <initialWillRange>5~10</initialWillRange>
+        <initialResistanceRange>18~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_ThievesGuild_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_ThievesGuild_Thief</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_ThievesGuildKindBase">
+        <defName>ESCP_Pawnkind_ThievesGuild_Fence</defName>
+        <label>guild fence</label>
+        <combatPower>35</combatPower>
+        <trader>true</trader>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.5~1.2</gearHealthRange>
+        <weaponMoney>80~200</weaponMoney>
+        <weaponTags>
+            <li>SomeMelee</li>
+        </weaponTags>
+        <apparelMoney>200~400</apparelMoney>
+        <techHediffsChance>0</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>6~12</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_ThievesGuild_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_ThievesGuild_Thief</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+</Defs>

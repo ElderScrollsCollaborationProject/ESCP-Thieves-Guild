@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <packageId>Rick.ESCP.ThievesGuild</packageId>
+    <author>Rick</author>
+    <name>ESCP - Thieves Guild</name>
+    <description>The Elder Scrolls Collaboration Project Presents: The Thieves Guild. Operating out of cellars and sewer networks in the major cities of Tamriel, the Thieves Guild does not kill unless pushed and does not steal from the poor, not because they are principled, but because both create problems. They deal in information, fenced goods, and the kind of work that does not appear in official records. Every major city has a chapter. Most city guards know it. Nobody mentions it.</description>
+    <url>https://github.com/ElderScrollsCollaborationProject</url>
+    <supportedVersions>
+        <li>1.6</li>
+        <li>1.7</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>Rick.ESCP.Core.Tools</packageId>
+            <displayName>ESCP - Tools</displayName>
+            <downloadUrl>https://github.com/ElderScrollsCollaborationProject</downloadUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Rick.ESCP.Core.Tools</li>
+        <li>Rick.ESCP.Imperials</li>
+        <li>Rick.ESCP.Bretons</li>
+        <li>Rick.ESCP.Redguards</li>
+        <li>Rick.ESCP.Nords</li>
+    </loadAfter>
+
+</ModMetaData>

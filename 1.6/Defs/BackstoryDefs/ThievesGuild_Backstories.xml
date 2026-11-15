@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_ThievesGuild_Pickpocket_Child</defName>
+        <identifier>ESCP_Backstory_ThievesGuild_Pickpocket_Child</identifier>
+        <slot>Childhood</slot>
+        <title>street pickpocket</title>
+        <titleShort>pickpocket</titleShort>
+        <description>[PAWN_nameDef] started lifting purses before [PAWN_pronoun] could read. Not out of hunger, exactly, though that was part of it, but because [PAWN_pronoun] was good at it, and being good at something in a city like that was not nothing. [PAWN_pronoun] learned to watch people before touching them, to read a mark's attention and their exits at the same time. The Guild noticed eventually. They always do.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Melee>1</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_ThievesGuild_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_ThievesGuild_Urchin_Child</defName>
+        <identifier>ESCP_Backstory_ThievesGuild_Urchin_Child</identifier>
+        <slot>Childhood</slot>
+        <title>city urchin</title>
+        <titleShort>urchin</titleShort>
+        <description>[PAWN_nameDef] grew up in the back alleys of a merchant city, sleeping in doorways and learning which guards took bribes and which ones did not. [PAWN_pronoun] ran errands for the local fence long before [PAWN_pronoun] understood what [PAWN_pronoun] was carrying. By the time [PAWN_pronoun] did understand, [PAWN_pronoun] had already decided it was fine.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_ThievesGuild_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_ThievesGuild_Cutpurse_Adult</defName>
+        <identifier>ESCP_Backstory_ThievesGuild_Cutpurse_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>guild cutpurse</title>
+        <titleShort>cutpurse</titleShort>
+        <description>[PAWN_nameDef] has been working Guild jobs for years: lifting goods from warehouses, running items across checkpoints, and occasionally persuading someone that their valuables were better off somewhere else. [PAWN_pronoun] does not carry a weapon most of the time, which does not mean [PAWN_pronoun] cannot use one. The Guild prefers jobs that do not leave bodies, and [PAWN_nameDef] has found that preferable as well.</description>
+        <skillGains>
+            <Social>4</Social>
+            <Melee>2</Melee>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_ThievesGuild_Thief</li>
+        </spawnCategories>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_ThievesGuild_Operative_Adult</defName>
+        <identifier>ESCP_Backstory_ThievesGuild_Operative_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>guild operative</title>
+        <titleShort>operative</titleShort>
+        <description>[PAWN_nameDef] handles the jobs that require more planning than a swift hand. Reconnaissance, bribery, coordinated entry, extraction under pressure. [PAWN_pronoun] has worked with enough incompetent partners to value working alone when possible and has enough scar tissue to know the difference between a job going badly and a job going to plan while everyone panics. The Guildmaster trusts [PAWN_objective] with sensitive contracts.</description>
+        <skillGains>
+            <Social>6</Social>
+            <Melee>3</Melee>
+            <Intellectual>4</Intellectual>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_ThievesGuild_Thief</li>
+        </spawnCategories>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_ThievesGuild_Master_Adult</defName>
+        <identifier>ESCP_Backstory_ThievesGuild_Master_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>master thief</title>
+        <titleShort>master thief</titleShort>
+        <description>[PAWN_nameDef] has stolen things that were not supposed to be stealable and fenced them to people who were not supposed to know they existed. [PAWN_pronoun] spent years building a reputation and the last few protecting it, which is harder. The Guild uses [PAWN_possessive] name to put nervous clients at ease and occasionally to frighten them. Both effects are deliberate.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Melee>4</Melee>
+            <Intellectual>6</Intellectual>
+            <Shooting>3</Shooting>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_ThievesGuild_Thief</li>
+        </spawnCategories>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_ThievesGuild_BeggarRunner_Child</defName>
+        <identifier>ESCP_Backstory_ThievesGuild_BeggarRunner_Child</identifier>
+        <slot>Childhood</slot>
+        <title>beggar runner</title>
+        <titleShort>runner</titleShort>
+        <description>[PAWN_nameDef] begged on the city's busiest corner and passed what [PAWN_pronoun] heard to the guild. Rumors were worth more than coins, and the guild paid in both.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_ThievesGuild_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_ThievesGuild_DockRat_Child</defName>
+        <identifier>ESCP_Backstory_ThievesGuild_DockRat_Child</identifier>
+        <slot>Childhood</slot>
+        <title>dock rat</title>
+        <titleShort>dock rat</titleShort>
+        <description>[PAWN_nameDef] grew up on the docks, slipping cargo off ships and selling it back to their captains. [PAWN_pronoun] learned to swim, to lie and to run, mostly in that order.</description>
+        <skillGains>
+            <Social>1</Social>
+            <Melee>1</Melee>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_ThievesGuild_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_ThievesGuild_Burglar_Adult</defName>
+        <identifier>ESCP_Backstory_ThievesGuild_Burglar_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>guild burglar</title>
+        <titleShort>burglar</titleShort>
+        <description>[PAWN_nameDef] goes in through windows the owners thought were too high to reach. [PAWN_pronoun] can open most locks with a bent pin and has never taken anything that could not be sold within a week.</description>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <spawnCategories>
+            <li>ESCP_Backstory_ThievesGuild_Thief</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_ThievesGuild_Fence_Adult</defName>
+        <identifier>ESCP_Backstory_ThievesGuild_Fence_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>guild fence</title>
+        <titleShort>fence</titleShort>
+        <description>[PAWN_nameDef] buys what the guild steals and finds someone to sell it to. [PAWN_pronoun] knows what everything is worth to the copper, and pays about half of that.</description>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <spawnCategories>
+            <li>ESCP_Backstory_ThievesGuild_Thief</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_ThievesGuild_Smuggler_Adult</defName>
+        <identifier>ESCP_Backstory_ThievesGuild_Smuggler_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>smuggler</title>
+        <titleShort>smuggler</titleShort>
+        <description>[PAWN_nameDef] moved skooma, moon sugar and untaxed wine along the coast for the guild. [PAWN_pronoun] knows every hidden cove from Anvil to Solitude and which customs officers drink.</description>
+        <skillGains>
+            <Social>4</Social>
+            <Shooting>2</Shooting>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <spawnCategories>
+            <li>ESCP_Backstory_ThievesGuild_Thief</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+</Defs>
